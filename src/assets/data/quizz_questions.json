@@ -1,55 +1,64 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Qual Allan você seria?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "FDS feião de chuva, o que vc faz?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"vai malhar, um corpo saudável nunca para", "alias":"B"},
+        {"id": 2, "name":"depressão, sou uma pessoa solar", "alias":"A"},
+        {"id": 3, "name":"passa o dia no tinder tentando um novo lance", "alias":"E"},
+        {"id": 4, "name":"marca aquele comes na Yo com a galera", "alias":"D"},
+        {"id": 5, "name":"tem tempo o suficiente para ter mais uma péssima ideia ", "alias":"C"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Durante o seu dia de trabalho você o que faz?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Toca o terror com os seus estagiários", "alias":"E"},
+        {"id": 2, "name":"Perde tempo articulando infinitas possibilidades para se relacionar com alguém do seu trabalho", "alias":"C"},
+        {"id": 3, "name":"Promove um almoço com seus estagiários amedrontados, eles precisam te suportar", "alias":"D"},
+        {"id": 4, "name":"Vai malhar, um corpo saudável nunca para", "alias":"B"},
+        {"id": 5, "name":"Pensa em desistir de trabalhar e já que se aposentar", "alias":"A"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Você marcou um super role com a galera, mas tudo deu errado, qual sua reação?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"vai malhar, um corpo saudável nunca para", "alias":"B"},
+        {"id": 2, "name":"fica puto, destrói o celular, não quer mais fazer nada", "alias":"C"},
+        {"id": 3, "name":"finge que está desapontado com todos, mas na verdade estava pegando uma mulher", "alias":"E"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "o contatinho te abandona, o que você faz?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"reaparece no grupo do WhatsApp, falando que todos estão sumidos e lamentando a falta de amizades", "alias":"A"},
+        {"id": 2, "name":"vai malhar, um corpo saudável nunca para", "alias":"B"},
+        {"id": 3, "name":"Decide marcar um encontro com os amigos", "alias":"D" },
+        {"id": 4, "name":"Vai para o tinder, foda-se", "alias":"E" }
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Seu dia está um inferno, qual vai ser?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"comer qualquer merda, minha vida está um inferno mesmo", "alias":"A"},
+        {"id": 2, "name":"ter uma péssima ideia para piorar o dia", "alias":"C"},
+        {"id": 3, "name":"vai malhar, um corpo saudável nunca para", "alias":"B" },
+        {"id": 4, "name":"procura seus melhores amigos para ser feliz", "alias":"D"}
       ]
     }
+    
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Allan Desanimado - Botou pilha no role, depois desistiu da porra toda. Sua vida é um inferno. ",
+    "B": "Allan Marombeiro - desmarca outros compromissos para ir na academia, academia todos os dias, alimentação pseudo saudável",
+    "C": "Allan inconsequente - seus planos estão acima de qualquer bom senso.",
+    "D": "Allan Familia - Famílias e amigos acima de qualquer coisa, junta a galera.",
+    "E": "Allan Fodão - Pega todo mundo, o mundo gira em torno da sua rola. Gosta de ser o chefe absurdo. É o melhor do melhor."
   }
 }

@@ -45,6 +45,7 @@ finished:boolean = false
   playerChoose(value:string){
     this.nextStep()
     this.answers.push(value)
+    console.log(this.answers)
   }
 
   async nextStep(){
@@ -56,6 +57,7 @@ finished:boolean = false
         const finalAnswer:string = await this.checkResults(this.answers)
         this.finished = true
         this.answersSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
+        console.log(finalAnswer)
       }
   }
 
@@ -72,7 +74,7 @@ finished:boolean = false
         }
         
       })
-
+     
       return result
   }
 
