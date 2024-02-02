@@ -19,6 +19,7 @@ export class QuizzComponent {
 
 answers:string[] = []
 answersSelected:string = ""
+imageAnswer:string = ""
 
 questionIndex:number = 0
 questionMaxIndex:number = 0
@@ -57,6 +58,7 @@ finished:boolean = false
         const finalAnswer:string = await this.checkResults(this.answers)
         this.finished = true
         this.answersSelected = quizz_questions.results[finalAnswer as keyof typeof quizz_questions.results]
+        this.imageAnswer = quizz_questions.images[finalAnswer as keyof typeof quizz_questions.images]
         console.log(finalAnswer)
       }
   }
