@@ -4,15 +4,23 @@
         <h3>{{title}}</h3>
     </div>
     <div *ngIf="!finished" class="quizz__questions">
-        <h3>{{questionSelected.question}}</h3>
+        <h3 *ngIf="!draw">{{questionSelected.question}}</h3>
+        <h3 *ngIf="draw">{{drawQuestion.question}}</h3>
     </div>
-    <div *ngIf="!finished" class="quizz__option">
+    <div *ngIf="!buttonCurrent" class="quizz__option">
         <button 
         *ngFor="let option of questionSelected.options"
         (click)="playerChoose(option.alias)"
-
         class="btn-option">
             {{option.name}}
+        </button>
+    </div>
+    <div *ngIf="buttonDraw" class="quizz__option">
+        <button 
+        *ngFor="let id of drawOption"
+        (click)="drawChoose(id)"
+        class="btn-option">
+            {{findOptionsDraw(id)}}
         </button>
     </div>
     <div *ngIf="finished" class="quizz__results">

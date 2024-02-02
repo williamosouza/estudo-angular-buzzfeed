@@ -59,14 +59,18 @@
     "B": "Allan Marombeiro - desmarca outros compromissos para ir na academia, academia todos os dias, alimentação pseudo saudável",
     "C": "Allan inconsequente - seus planos estão acima de qualquer bom senso.",
     "D": "Allan Familia - Famílias e amigos acima de qualquer coisa, junta a galera.",
-    "E": "Allan Fodão - Pega todo mundo, o mundo gira em torno da sua rola. Gosta de ser o chefe absurdo. É o melhor do melhor."
+    "E": "Allan Fodão - Pega todo mundo, o mundo gira em torno da sua rola. Gosta de ser o chefe absurdo. É o melhor do melhor.",
+    "F": "Allan Apaixonado - ",
+    "G": "Allan Econômico - "
   },
   "images":{
     "A": "assets/imgs/logo.png",
     "B": "assets/imgs/logo.png",
     "C": "assets/imgs/logo.png",
     "D": "assets/imgs/logo.png",
-    "E": "assets/imgs/logo.png"
+    "E": "assets/imgs/logo.png",
+    "F": "assets/imgs/logo.png",
+    "G": "assets/imgs/logo.png"
   }
 
 }

@@ -1,0 +1,17 @@
+{
+  "title":"Qual Allan você seria?",
+  "questions":[
+    {
+      "question": "DESEMPATE",
+      "options":[
+        {"id": "B", "name":"TESTE B", "alias":"B"},
+        {"id": "A", "name":"TESTE A", "alias":"A"},
+        {"id": "E", "name":"TESTE E", "alias":"E"},
+        {"id": "D", "name":"TESTE D", "alias":"D"},
+        {"id": "C", "name":"TESTE C", "alias":"C"}
+      ]
+    }
+    
+  ]
+
+}
