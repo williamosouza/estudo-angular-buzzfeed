@@ -63,22 +63,49 @@ finished:boolean = false
       }
   }
 
-  async checkResults(answers:string[]){
-    const result = answers.reduce((previous, current, i, arr)=>{
-      if ( 
-        arr.filter(item => item === previous).length > 
-        arr.filter(item => item === current).length     
-        ){
-          return previous
-        } 
-        else {
-          return current
-        }
-        
-      })
-     
-      return result
-  }
+  //async checkResults(answers:string[]){
+  //  const result = answers.reduce((previous, current, i, arr)=>{
+  //    if ( 
+  //      arr.filter(item => item === previous).length > 
+  //      arr.filter(item => item === current).length     
+  //      ){
+  //        return previous
+  //      } 
+  //      else {
+  //        return current
+  //      }
+  //      
+  //    })
+  //   
+  //    return result
+  //}
+
+  async checkResults(letras:string[]){
+
+    let contagem: Record<string, number> = {};
+    
+    contagem = letras.reduce((contador:any, letra:string) => {
+      contador[letra] = (contador[letra] || 0) + 1;
+      return contador;
+    }, {});
+    
+    const maiorValor = Math.max(...Object.values(contagem))
+    
+    var array:any[] | null = Object.entries(contagem).map(([chave, valor]) => {
+      if (valor === maiorValor){
+        return chave
+      } else {
+        return null
+      }
+      
+    });
+    
+    let result:string | null = array.filter(item => item !== null).join("");
+
+    
+    return result    
+    
+    }
 
 
 
