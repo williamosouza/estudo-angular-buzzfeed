@@ -81,7 +81,7 @@ option: any;
   // findOptionsDraw devolve somente as opções de texto do arrey gerado nos resultados empatados, dando a opção de somente
   // escolher entre dois ou mais empatados.
 
-  async findOptionsDraw(id:any){
+  findOptionsDraw(id:any){
     const option:any = this.drawQuestion.options.find((option: { id: any; }) => option.id === id);
     return option ? option.name : null;
     }

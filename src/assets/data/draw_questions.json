@@ -2,13 +2,15 @@
   "title":"Qual Allan você seria?",
   "questions":[
     {
-      "question": "DESEMPATE",
+      "question": "Você trabalho insanamente nos últimos dias, sumiu de forma justificável, e agora?",
       "options":[
-        {"id": "B", "name":"TESTE B", "alias":"B"},
-        {"id": "A", "name":"TESTE A", "alias":"A"},
-        {"id": "E", "name":"TESTE E", "alias":"E"},
-        {"id": "D", "name":"TESTE D", "alias":"D"},
-        {"id": "C", "name":"TESTE C", "alias":"C"}
+        {"id": "A", "name":"não quero fazer nada, só quero dormir", "alias":"A"},
+        {"id": "B", "name":"retornar a academia, um corpo saudável nunca para", "alias":"B"},
+        {"id": "C", "name":"começar a pensar no seu próximo plano megalomaníaco", "alias":"C"},
+        {"id": "D", "name":"chamar os amigos para aquele almoço na Yo", "alias":"D"},
+        {"id": "E", "name":"primeira coisa é marcar aquela foda!!!", "alias":"E"},
+        {"id": "F", "name":"continuar desaparecido, somente falar com a pessoa na qual estou apaixonado no momento", "alias":"F"},
+        {"id": "G", "name":"promover algo bastante barato para trocar uma ideia e se atualizar", "alias":"G"}
       ]
     }
     

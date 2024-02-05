@@ -9,12 +9,13 @@
         {"id": 2, "name":"depressão, sou uma pessoa solar", "alias":"A"},
         {"id": 3, "name":"passa o dia no tinder tentando um novo lance", "alias":"E"},
         {"id": 4, "name":"marca aquele comes na Yo com a galera", "alias":"D"},
-        {"id": 5, "name":"tem tempo o suficiente para ter mais uma péssima ideia ", "alias":"C"}
+        {"id": 5, "name":"tem tempo o suficiente para ter mais uma péssima ideia", "alias":"C"},
+        {"id": 6, "name":"Que excelente dia sem gastar dinheiro!", "alias":"G"}
       ]
     },
     {
       "id":2,
-      "question": "Durante o seu dia de trabalho você o que faz?",
+      "question": "Durante o seu dia de trabalho você faz o que?",
       "options":[
         {"id": 1, "name":"Toca o terror com os seus estagiários", "alias":"E"},
         {"id": 2, "name":"Perde tempo articulando infinitas possibilidades para se relacionar com alguém do seu trabalho", "alias":"C"},
@@ -29,17 +30,20 @@
       "options":[
         {"id": 1, "name":"vai malhar, um corpo saudável nunca para", "alias":"B"},
         {"id": 2, "name":"fica puto, destrói o celular, não quer mais fazer nada", "alias":"C"},
-        {"id": 3, "name":"finge que está desapontado com todos, mas na verdade estava pegando uma mulher", "alias":"E"}
+        {"id": 3, "name":"finge que está desapontado com todos, mas na verdade estava pegando uma mulher", "alias":"E"},
+        {"id": 4, "name":"bom, não vou gastar dinheiro", "alias":"G"}
       ]
     },
     {
       "id":4,
-      "question": "o contatinho te abandona, o que você faz?",
+      "question": "O contatinho te abandona, o que você faz?",
       "options":[
-        {"id": 1, "name":"reaparece no grupo do WhatsApp, falando que todos estão sumidos e lamentando a falta de amizades", "alias":"A"},
-        {"id": 2, "name":"vai malhar, um corpo saudável nunca para", "alias":"B"},
+        {"id": 1, "name":"Reaparece no grupo do WhatsApp, falando que todos estão sumidos e lamentando a falta de amizades", "alias":"A"},
+        {"id": 2, "name":"Vai malhar, um corpo saudável nunca para", "alias":"B"},
         {"id": 3, "name":"Decide marcar um encontro com os amigos", "alias":"D" },
-        {"id": 4, "name":"Vai para o tinder, foda-se", "alias":"E" }
+        {"id": 4, "name":"Vai para o tinder, foda-se", "alias":"E" },
+        {"id": 5, "name":"Sofre, você se apaixonou por esse contatinho", "alias":"F" },
+        {"id": 6, "name":"Pensa pelo lado positivo, menos uma para você ter que gastar dinheiro", "alias":"G" }
       ]
     },
     {
@@ -49,19 +53,59 @@
         {"id": 1, "name":"comer qualquer merda, minha vida está um inferno mesmo", "alias":"A"},
         {"id": 2, "name":"ter uma péssima ideia para piorar o dia", "alias":"C"},
         {"id": 3, "name":"vai malhar, um corpo saudável nunca para", "alias":"B" },
-        {"id": 4, "name":"procura seus melhores amigos para ser feliz", "alias":"D"}
+        {"id": 4, "name":"procura seus melhores amigos para ser feliz", "alias":"D"},
+        {"id": 5, "name":"Ficar apaixonado pela ex novamente", "alias":"F"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "O contatinho carteado chamou para um date, porém, não tem como se deslocar. Qual o plano?",
+      "options":[
+        {"id": 1, "name":"prefiro meus amigos", "alias":"D"},
+        {"id": 2, "name":"ta maluco, vou ficar na minha", "alias":"A"},
+        {"id": 3, "name":"paga 99 moto para o contatinho ir até a sua casa, só para dar umazinha, afinal, na geladeira só tem queijo e água", "alias":"G" },
+        {"id": 4, "name":"pega seu carro, vai buscar o contatinho não importa o local, faz ela se sentir uma rainha", "alias":"C"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "Uma companheira de trabalho flertou com você, qual sua reação?",
+      "options":[
+        {"id": 1, "name":"responder com um flerte ainda mais aparente", "alias":"C"},
+        {"id": 2, "name":"nada, não estou afim de arrumar problema", "alias":"A"},
+        {"id": 3, "name":"faz de indiferente, mas no fundo está explodindo e elocubrando qual o próximo passo", "alias":"E" },
+        {"id": 4, "name":"começa a ficar completamente apaixonado e comenta com seus amigos que está apaixonado", "alias":"F"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Você brigou com sua namorada em pleno carnaval, ela foi embora, o que você faz?",
+      "options":[
+        {"id": 1, "name":"sai correndo descalço na rua atrás dela", "alias":"C"},
+        {"id": 2, "name":"nada, partiu pra outra, é carnaval!", "alias":"E"},
+        {"id": 3, "name":"sofre, você era muito apaixonado", "alias":"F" }
+      ]
+    },
+    {
+      "id":9,
+      "question": "Sua mãe não aguenta te ver a mesma bermuda de 20 anos atrás, e agora?",
+      "options":[
+        {"id": 1, "name":"ignora como sempre, a bermuda está ótima", "alias":"G"},
+        {"id": 2, "name":"como estou com uma nova paixão, realmente devo me vestir um pouco melhor", "alias":"F"},
+        {"id": 3, "name":"vou usar a bermuda para malhar também!", "alias":"B" },
+        {"id": 4, "name":"vou parar de usar a bermuda na frente da minha mãe, eu amo ela!", "alias":"D" }
       ]
     }
     
   ],
   "results":{
     "A": "Allan Desanimado - Botou pilha no role, depois desistiu da porra toda. Sua vida é um inferno. ",
-    "B": "Allan Marombeiro - desmarca outros compromissos para ir na academia, academia todos os dias, alimentação pseudo saudável",
-    "C": "Allan inconsequente - seus planos estão acima de qualquer bom senso.",
+    "B": "Allan Marombeiro - Desmarca outros compromissos para ir na academia, academia todos os dias, alimentação pseudo saudável.",
+    "C": "Allan Inconsequente - Seus planos estão acima de qualquer bom senso.",
     "D": "Allan Familia - Famílias e amigos acima de qualquer coisa, junta a galera.",
     "E": "Allan Fodão - Pega todo mundo, o mundo gira em torno da sua rola. Gosta de ser o chefe absurdo. É o melhor do melhor.",
-    "F": "Allan Apaixonado - ",
-    "G": "Allan Econômico - "
+    "F": "Allan Apaixonado - Sua paixão transborda alem da sua razão, seu relacionamento está acima de todos os grupos e amizades, desaparece por meses ou até durar o relacionamento",
+    "G": "Allan Econômico - Não existe nada que não possa ser economizado, suas contas estão acima do seu bem-estar."
   },
   "images":{
     "A": "assets/imgs/logo.png",
